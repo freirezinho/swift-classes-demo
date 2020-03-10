@@ -1,12 +1,9 @@
-//
-//  main.swift
-//  classesDemo
-//
-//  Created by Saulo Freire on 10/03/20.
-//  Copyright © 2020 Freire. All rights reserved.
-//
 
-import Foundation
+let skeleton = Enemy()
 
-print("Hello, World!")
-
+let dragon = Dragon()
+dragon.wingSpan = 5
+dragon.attackStrength = 15
+dragon.talk(speech: "Hurr durr")
+dragon.move()
+dragon.attack()
